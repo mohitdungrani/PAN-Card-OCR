@@ -34,9 +34,9 @@ The idea of this project was to develop program using Convolution Neural network
   => ./darknet detector train data/obj.data yolo-obj.cfg backup/darknet53.conv.74 -dont_show<br /><br />
   
  6) Generate input and results folder:<br />
-  After successfully training dataset you need to create two folders called input and results.<br />
-  In input folder you need to add images which you want data from that.<br />
-  then you need to run command to extrct informations from these images as follows:<br />
+  -> After successfully training dataset you need to create two folders called input and results.<br />
+  -> In input folder you need to add images which you want data from that.<br />
+  -> then you need to run command to extrct informations from these images as follows:<br />
   => ./darknet detector test data/obj.data yolo-obj.cfg backup/yolo-obj_18000.weights -thresh 0.25 -ext_output -dont_show<br /><br />
   
   Now, Tadaaa you can see extracted information in output folder.<br />
