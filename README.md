@@ -1,6 +1,6 @@
 # PAN-Card-OCR
 ## Introcution
-PAN Card is one type of legal document The that is allocated by the income tax department to all the taxpayers in India.
+PAN Card is one type of legal document that is allocated by the income tax department of India to all the taxpayers .
 
 The idea of this project was to develop program using Convolution Neural network to extract required information such as name, father’s name, date of birth and PAN number in text form from the legal document called PAN Card. In this project Darknet framework as well as Vott were used
  
