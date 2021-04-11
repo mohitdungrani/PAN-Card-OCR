@@ -6,9 +6,8 @@ The idea of this project was to develop program using Convolution Neural network
  
  ## Set Up
  1) Clone Darknet
-  First of all you need to install Darknet for train our OCR
-  to clone darknet use below command:
-  => git clone https://github.com/kriyeng/darknet/
+  -> First of all you need to install Darknet for train our OCR to clone darknet use below command:
+  -> => git clone https://github.com/kriyeng/darknet/
  
  2) Set up Darknet Folder
   After cloning Darknet you need to insert pan.py, config.py and utils foldern in darknet folder.
