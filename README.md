@@ -10,10 +10,10 @@ The idea of this project was to develop program using Convolution Neural network
   => git clone https://github.com/kriyeng/darknet/<br /><br />
  
  2) Set up Darknet Folder<br />
-  After cloning Darknet you need to insert pan.py, config.py and utils foldern in darknet folder.<br /><br />
+  After cloning Darknet you need to insert pan.py, config.py and utils folder in darknet folder.<br /><br />
  
  3) Set up for GPU<br />
-  Tarining data set using darknet is very time consuming to boost up training you need to use GPU, to set up GPU for Training you need to change setting in makefile
+  Training a data set using darknet is very time consuming, to boost up training you need to use GPU, to set up GPU for Training you need to change setting in makefile
   change below things:<br />
    GPU = 1<br />
    OPENCV = 1<br />
@@ -23,7 +23,7 @@ The idea of this project was to develop program using Convolution Neural network
   
  
  4) Change Darknet file mode<br />
-  For Training You need change access mode of Darknet below command<br />
+  For Training You need change access mode of Darknet using below command<br />
   => chmod +x darknet<br /><br />
  
  5) Data Annotation :<br />
