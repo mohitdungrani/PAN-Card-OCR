@@ -37,9 +37,9 @@ The idea of this project was to develop program using Convolution Neural network
   -> After successfully training dataset you need to create two folders called input and results.<br />
   -> In input folder you need to add images which you want data from that.<br />
   -> then you need to run command to extrct informations from these images as follows:<br />
-  => ./darknet detector test data/obj.data yolo-obj.cfg backup/yolo-obj_18000.weights -thresh 0.25 -ext_output -dont_show<br /><br />
+  => python pan.py -d -t<br /><br />
   
-  Now, Tadaaa you can see extracted information in output folder.<br />
+  Now, Tadaaa you can see extracted information in results folder.<br />
   
   references: https://medium.com/saarthi-ai/how-to-build-your-own-ocr-a5bb91b622ba
     
